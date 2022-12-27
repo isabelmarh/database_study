@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    platform: linux/amd64
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'sql_study'
+      MYSQL_USER: 'user_study'
+      MYSQL_PASSWORD: 'password_study'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      # <Port exposed> : < MySQL Port running inside container>
+      - '33061:3306'
+
