@@ -15,23 +15,25 @@ In this project we will spin up a MySQL from a Docker and connect to DBeaver.
 ## Getting Started
 
 ### Technologies Used
-* MySQL - relational database management system used to administer a DB using SQL. In other words, it is a software and it should not to be confused with SQL - structured query language used to manage relational databases.
-Other open source databases include Postgres, MongoDB, Redis, MariaDB.
-* DBeaver is a SQL client software that supports the aforementioned databases and is used to administer the databases.
-* Docker Compose according to Docker's official documentation, is a tool to help define and share multi-container applications. In this project we create a YAML file in the root of the project repo to  version control our changes.
+
+- MySQL - relational database management system used to administer a DB using SQL. In other words, it is a software and it should not to be confused with SQL - structured query language used to manage relational databases.
+  Other open source databases include Postgres, MongoDB, Redis, MariaDB.
+- DBeaver is a SQL client software that supports the aforementioned databases and is used to administer the databases.
+- Docker Compose according to Docker's official documentation, is a tool to help define and share multi-container applications. In this project we create a YAML file in the root of the project repo to version control our changes.
 
 ### Installing
 
-* [Install Docker (Community Edition) on Mac.](https://docs.docker.com/desktop/install/mac-install/) Or click on Linux or Windows option accordingly
-* [Download DBeaver](https://dbeaver.io/download/)
+- [Install Docker (Community Edition) on Mac.](https://docs.docker.com/desktop/install/mac-install/) Or click on Linux or Windows option accordingly
+- [Download DBeaver](https://dbeaver.io/download/)
 
 ### Configuration
 
-* Modify docker-compose.yml file with your environment variables 
+- Modify docker-compose.yml file with your environment variables
+- [README.md](/database/mysql/README.md)
 
 ### Executing program
 
-* How to run the program
+- How to run the program
 
 ```
 docker-compose up -d or make up
@@ -40,7 +42,7 @@ docker-compose down or make down
 
 ### Connecting to DBeaver
 
-* Inside the UI, click on the "Connect to a database" icon and select MySQL
+- Inside the UI, click on the "Connect to a database" icon and select MySQL
 
-* Add a name of your choice in the Database field, Port and the authentication information: Username and Password. 
-* Finally click on Test Connection.
+- Add a name of your choice in the Database field, Port and the authentication information: Username and Password.
+- Finally click on Test Connection.
